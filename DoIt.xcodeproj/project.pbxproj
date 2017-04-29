@@ -13,6 +13,7 @@
 		F6B44C601EB3FD7800289C32 /* DoIt.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F6B44C5E1EB3FD7800289C32 /* DoIt.xcdatamodeld */; };
 		F6B44C621EB3FD7800289C32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6B44C611EB3FD7800289C32 /* Assets.xcassets */; };
 		F6B44C651EB3FD7800289C32 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6B44C631EB3FD7800289C32 /* LaunchScreen.storyboard */; };
+		F6B44C6D1EB431DE00289C32 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B44C6C1EB431DE00289C32 /* Task.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		F6B44C611EB3FD7800289C32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F6B44C641EB3FD7800289C32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F6B44C661EB3FD7800289C32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6B44C6C1EB431DE00289C32 /* Task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				F6B44C571EB3FD7800289C32 /* AppDelegate.swift */,
 				F6B44C591EB3FD7800289C32 /* ViewController.swift */,
 				F6B44C5B1EB3FD7800289C32 /* Main.storyboard */,
+				F6B44C6C1EB431DE00289C32 /* Task.swift */,
 				F6B44C611EB3FD7800289C32 /* Assets.xcassets */,
 				F6B44C631EB3FD7800289C32 /* LaunchScreen.storyboard */,
 				F6B44C661EB3FD7800289C32 /* Info.plist */,
@@ -139,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6B44C6D1EB431DE00289C32 /* Task.swift in Sources */,
 				F6B44C601EB3FD7800289C32 /* DoIt.xcdatamodeld in Sources */,
 				F6B44C5A1EB3FD7800289C32 /* ViewController.swift in Sources */,
 				F6B44C581EB3FD7800289C32 /* AppDelegate.swift in Sources */,

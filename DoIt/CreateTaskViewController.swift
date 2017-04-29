@@ -25,10 +25,13 @@ class CreateTaskViewController: UIViewController {
         //Create a Task from the outlet information
         
         let task = Task()
+
         task.name = taskNameTextField.text!
         task.important = importantSwitch.isOn
         
         // Add new task to array in previous viewController
         previousVC.tasks.append(task)
+        previousVC.tableView.reloadData()
+        navigationController!.popViewController(animated: true)
     }
 }
